@@ -1,7 +1,7 @@
 numbz=int(input())
 if(numbz>0):
-       print("positive")
+       print("Positive")
 elif(numbz==0):
-       print("zero")
+       print("Zero")
 else:
-       print("negative")
+       print("Negative")
