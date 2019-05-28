@@ -1,0 +1,11 @@
+leap=int(input())
+if(leap%4==0):
+       if(leap%100==0):
+              if(leap%400==0):
+                     print("Yes")
+              else:
+                     print("No")
+       else:
+              print("Yes")
+else:
+       print("No")
