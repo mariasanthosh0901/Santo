@@ -4,5 +4,7 @@ def fact(num):
        elif(num==1):
               return num
 fac=int(input())
-if(fac>0):
+if(fac==0):
+       print("1")
+else:
        print(fact(fac))
