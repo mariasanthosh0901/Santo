@@ -1,10 +1,14 @@
-n=int(input())
-count=1
-for i in range(2,n):
-       if(n%i==0):
-              count=0
-if(count==1):
-       print("yes")
-else:
-       print("no")
+a,b=map(int,input().split())
+l=[]
+for i in range(a+1,b+1):
+       count=1
+       for j in range(2,i):
+              if(i%j==0):
+                     count=0
+       if(count==1):
+              l.append(i)
+for k in l:
+       print(k,end=' ')
+                     
+
               
