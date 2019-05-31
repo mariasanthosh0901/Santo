@@ -1,4 +1,4 @@
-n8=int(input())
+n1=int(input())
 l8=list(map(int,input().split()))
 l8.sort()
 for i in l8:
