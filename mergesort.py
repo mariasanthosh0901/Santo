@@ -7,8 +7,6 @@ def mergeSort(arr):
         mergeSort(R) 
   
         i = j = k = 0
-        print(L)
-        print(len(L))
         # Copy data to temp arrays L[] and R[] 
         while i < len(L) and j < len(R): 
             if L[i] < R[j]: 
@@ -35,7 +33,7 @@ def printList(arr):
     for i in range(len(arr)):         
         print(arr[i],end=" ") 
     print() 
-  
+n=int(input())
 arr=list(map(int,input().split()))
-mergeSort(arr[1:])
-printList(arr[1:])
+mergeSort(arr)
+printList(arr)
