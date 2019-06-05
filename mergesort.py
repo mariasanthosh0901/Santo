@@ -1,10 +1,10 @@
 def mergeSort(arr): 
     if len(arr) >1: 
-        mid = len(arr)//2 #Finding the mid of the array
-        L = arr[:mid] # Dividing the array elements
-        R = arr[mid:] # into 2 halves 
-        mergeSort(L) # Sorting the first half 
-        mergeSort(R) # Sorting the second half 
+        mid = len(arr)//2 
+        L = arr[:mid]
+        R = arr[mid:]
+        mergeSort(L) 
+        mergeSort(R) 
   
         i = j = k = 0
         print(L)
@@ -36,7 +36,7 @@ def printList(arr):
         print(arr[i],end=" ") 
     print() 
   
-# driver code to test the above code 
+
 if __name__ == '__main__': 
     arr = [12, 11, 13, 5, 6, 7]  
     print ("Given array is", end="\n")  
