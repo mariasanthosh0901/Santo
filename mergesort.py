@@ -36,11 +36,6 @@ def printList(arr):
         print(arr[i],end=" ") 
     print() 
   
-
-if __name__ == '__main__': 
-    arr = [12, 11, 13, 5, 6, 7]  
-    print ("Given array is", end="\n")  
-    printList(arr) 
-    mergeSort(arr) 
-    print("Sorted array is: ", end="\n") 
-    printList(arr)
+arr=list(map(int,input().split()))
+mergeSort(arr[1:])
+printList(arr[1:])
