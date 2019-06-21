@@ -1,5 +1,5 @@
-n=int(input())
-if(type(n)=="int"):
+n=input()
+if(n.isdigit()):
        print("yes")
 else:
        print("No")
